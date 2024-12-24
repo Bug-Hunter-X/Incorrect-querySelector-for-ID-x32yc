@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Uncommon HTML Error Solution</title>
+</head>
+<body>
+  <div id="myDiv">
+    This is some text.
+  </div>
+
+  <script>
+    // Correct way to select element by ID using getElementById
+    let myDiv = document.getElementById("myDiv");
+    myDiv.innerHTML = "Text changed!";
+    
+    //Correct way to select element by ID using querySelector
+    let myDiv2 = document.querySelector("#myDiv");
+    myDiv2.innerHTML = "Text changed again!";
+  </script>
+</body>
+</html>
